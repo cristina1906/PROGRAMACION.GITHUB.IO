@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Solar Animado</title>
+    <style>
+        body{
+		    background-color:black;
+            color:white
+        }
+        h1{
+            text-align: center;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+<h1>SISTEMA SOLAR</h1>
+
+    <svg version="1.1" xmlns="http://wwww.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="1280" height="960">
+     
+    <image xlink:href="texturasistemas/espacio.jpg"></image>
+    <path id="urano_o" d="m745.23818,733.48182c-247.25,99.98 -493.58,67.07 -550.45,-73.56s97.36,-335.5 344.61,-435.48s493.58,-67.07 550.45,73.56s-97.36,335.5 -344.61,435.48z" opacity="undefined" stroke-width="0.5" stroke="null" fill="none"/>
+    <path id="saturno_o" d="m732.05529,698.68182c-222.11,89.81 -443.8,59.22 -495.39,-68.36s86.53,-303.68 308.63,-393.5s443.8,-59.22 495.4,68.36s-86.53,303.68 -308.64,393.5z" opacity="undefined"  stroke-width="0.5"stroke="nul" fill="none"/>
+    <path id="jupiter_o" d="m724.67998,673.69c-208.6,84.35 -415.24,59.52 -461.75,-55.5s84.79,-276.5 293.39,-360.85s415.24,-59.52 461.75,55.5c46.51,115.02 -84.79,276.5 -293.39,360.85l0,0z" opacity="undefined" stroke-width="0.5" stroke="null" fill="none"/>
+    <path id="marte_o" d="m715.82001,641.66c-193.7,78.33 -384.31,58.42 -425.92,-44.49s81.58,-249.7 275.28,-328.03s384.31,-58.42 425.92,44.49s-81.58,249.71 -275.28,328.03z" opacity="undefined" stroke-width="0.5" stroke="null" fill="none"/>
+    <path id="tierra_o" d="m706.95503,607.79c-177.87,71.92 -351.68,56.64 -388.4,-34.16s77.62,-222.61 255.49,-294.54s351.68,-56.64 388.4,34.16s-77.62,222.61 -255.49,294.54l0,0z" opacity="undefined" stroke-width="0.5" stroke="null" fill="none"/>
+    <path id="venus_o" d="m698.43501,580.99c-161.11,65.15 -317.54,53.8 -349.55,-25.36s72.57,-196.04 233.68,-261.19s317.54,-53.8 349.55,25.36s-72.57,196.04 -233.68,261.19l0,0z" opacity="undefined" stroke-width="0.5" stroke="null" fill="none"/>
+    <path id="mercurio_o" d="m690.59999,552.16c-146.21,59.12 -287.06,51.57 -314.74,-16.88c-27.68,-68.46 68.33,-171.79 214.54,-230.91s287.06,-51.57 314.74,16.88s-68.33,171.79 -214.54,230.91l0,0z" opacity="undefined" stroke-width="0.5" stroke="null" fill="none"/>
+       
+    <image xlink:href="texturasistemas/mercurio.gif" 
+    width="30" height="30" x="-15" y="-15"> 
+        <animateMotion dur="6s" 
+        repeatCount="indefinite">
+            <mpath xlink:href="#mercurio_o"/>
+      </animateMotion>
+    </image>  
+
+    <image xlink:href="texturasistemas/venus.png"
+    width="50" height="50" x="-25" y="-25">
+        <animateMotion dur="8s" 
+        repeatCount="indefinite">
+            <mpath xlink:href="#venus_o"/>
+      </animateMotion>
+    </image> 
+
+    <image xlink:href="texturasistemas/tierra.png"
+    width="56" height="56" x="-28" y="-28">
+        <animateMotion dur="10s" 
+        repeatCount="indefinite">
+            <mpath xlink:href="#tierra_o"/>
+      </animateMotion>
+    </image>
+
+    <image xlink:href="texturasistemas/marte.png"
+    width="48" height="48" x="-24" y="-24">
+        <animateMotion dur="14s" 
+        repeatCount="indefinite">
+            <mpath xlink:href="#marte_o"/>
+      </animateMotion>
+    </image>
+
+    <image xlink:href="texturasistemas/jupiter.png"
+    width="120" height="120" x="-60" y="-60">
+        <animateMotion dur="20s" 
+        repeatCount="indefinite">
+            <mpath xlink:href="#jupiter_o" />
+      </animateMotion>
+    </image>
+    
+    <image xlink:href="texturasistemas/saturno.png"
+    width="120" height="118" x="-60" y="-59">
+        <animateMotion dur="25s" 
+        repeatCount="indefinite">
+            <mpath xlink:href="#saturno_o"/>
+      </animateMotion>
+    </image> 
+
+    <image xlink:href="texturasistemas/urano.png"
+    width="80" height="104" x="-40" y="-52">
+        <animateMotion dur="30s" 
+        repeatCount="indefinite">
+            <mpath xlink:href="#urano_o"/>
+      </animateMotion>
+    </image> 
+    <image xlink:href="texturasistemas/sol.png"
+    width="54" height="64" x="640" y="350">
+    </image> 
+    </svg>
+</body>
+</html>
+
+
