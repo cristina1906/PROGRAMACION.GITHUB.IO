@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="253.27px" height="184.75px" viewBox="0 0 253.27 184.75" style="enable-background:new 0 0 253.27 184.75;"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1B839B;}
+	.st1{fill:#24A394;}
+	.st2{fill:none;}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'ArialMT';}
+	.st5{font-size:6.2556px;}
+</style>
+<image style="overflow:visible;enable-background:new    ;" width="1407" height="775" id="logo" xlink:href="imagenes/VERO1-.png"  transform="matrix(0.1501 0 0 0.1501 4.9159 65.5616)">
+</image>
+<g id="globo">
+	<g id="globo_verde_fuerte">
+		<polygon class="st0" points="210.43,60.15 189.57,103.33 222.55,72.24 		"/>
+		<path class="st0" d="M223.61,76.92l-48.18-6.71c-8.7-1.21-14.48-8.4-12.9-16.05l7.62-37.01c1.57-7.65,9.91-12.87,18.62-11.66
+			l48.18,6.71c8.7,1.21,14.48,8.4,12.9,16.05l-7.62,37.01C240.65,72.91,232.32,78.13,223.61,76.92z"/>
+	</g>
+	<g id="globo_verde_agua">
+		<polygon class="st1" points="207.14,59.3 186.29,102.48 219.27,71.38 		"/>
+		<path class="st1" d="M220.32,76.07l-48.18-6.71c-8.7-1.21-14.48-8.4-12.9-16.05l7.62-37.01c1.57-7.65,9.91-12.87,18.62-11.66
+			l48.18,6.71c8.7,1.21,14.48,8.4,12.9,16.05l-7.62,37.01C237.36,72.06,229.04,77.28,220.32,76.07z"/>
+	</g>
+	
+		<rect x="174.74" y="6.01" transform="matrix(0.2039 -0.979 0.979 0.2039 119.8837 235.9765)" class="st2" width="60.61" height="76.52"/>
+	<text id="texto" transform="matrix(0.9912 -0.1323 0.1323 0.9912 177.2764 18.4433)"><tspan x="0" y="0" class="st3 st4 st5">Es un </tspan><tspan x="2.05" y="7.51" class="st3 st4 st5">negocio de </tspan><tspan x="-2.5" y="15.01" class="st3 st4 st5">fofuchas que elabora </tspan><tspan x="2.71" y="22.52" class="st3 st4 st5">dulceros, plumas, </tspan><tspan x="-8.62" y="30.03" class="st3 st4 st5">portarretratos, muñecos </tspan><tspan x="-16.13" y="37.53" class="st3 st4 st5">personalizados, decoración </tspan><tspan x="-8.51" y="45.04" class="st3 st4 st5">de fiestas o eventos </tspan><tspan x="-0.28" y="52.55" class="st3 st4 st5">sociales entre otros.</tspan></text>
+</g>
+</svg>

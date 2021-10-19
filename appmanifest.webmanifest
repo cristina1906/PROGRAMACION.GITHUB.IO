@@ -1,0 +1,25 @@
+{
+    "name": "DAMERILO",
+    "short_name":"DAMERILO",
+    "description": "Aplicación PWA del curso PAM-USB 2021",
+    "background_color":" #deb4f1",
+    "theme_color":":#4CDAE5",
+    "orientation":"portrait",
+    "display":"fullscreen",
+    "start_url": "./index.html?utm_source=web_app_manifest",  
+    "scope":"./",
+    "lang":"es-MX",
+    "icons": [
+        {
+            "src": "./imageness/maskable_icon_x192.png",
+            "type": "imagenes/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./images/maskable_icon.png",
+            "type": "imagenes/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ]
+} 
