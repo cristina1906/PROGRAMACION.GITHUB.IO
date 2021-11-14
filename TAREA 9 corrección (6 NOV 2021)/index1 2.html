@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes con paralaje</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/jparallax.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        .parallax-viewport{
+            width: 800px;
+            height: 300px;
+            max-width: 60em;
+            background-color: #aebcc9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Las Crónicas de Spiderwick</h1>
+    <div style="width: 800px; margin:auto;"
+    <!-- Inicia ventana de paralaje  -->
+    <div class="parallax-viewport" id="parallax">
+        <!-- Capas de paralaje (Imagenes) -->
+        <div class="parallax-layer" style="width: 960px; height: 547px;">
+            <img src="imagenes/background 997x547.png" style="position: absolute; left: 0px; top: 0px;">
+        </div>
+        
+    </div>
+    <!-- El contenido -->
+<!-- .contemesor>p*5>lorem -->
+<div class="contenedor">
+    <p>La historia gira alrededor de tres niños, Jared y su hermano gemelo Simon, su hermana mayor Mallory y su madre Helen, que acaba de separarse.</p>
+    <p>La familia se muda a la vieja, aislada y algo ruinosa casa Spiderwick, el hogar de su tío bisabuelo Arthur Spiderwick y de su tía abuela Lucinda.
+       A pesar de que los niños no están de acuerdo con el traslado, cada uno intenta acoplarse a su manera. Simon, el gemelo más tranquilo y estudioso, 
+       examina la sorprendente casa; Mallory practica la esgrima, y Helen busca trabajo en el pueblo.</p>
+    <p>Pero Jared no tarda en darse cuenta de que en la casa ocurren cosas extrañas y se lanza a investigar. Sin hacer caso de la advertencia del 
+       trastolillo Thimbletack/Dedalete, una criatura mágica que vive en las paredes de la vieja casa, encuentra un libro potencialmente peligroso, 
+       Arthur Spiderwicks Field Guide to the Fantastical World Around You (Guía del mundo fantástico que nos rodea, por Arthur Spiderwick), escrito 
+       por el tío Arthur. En el momento en que se abre, el libro revela y libera un mundo habitado por seres raros, fantásticos y aterradores: un astuto
+       aunque amigable "trasno" llamado Hogsqueal/Cerdonio (Seth Rogen); una manada de peligrosos trasgos; maravillosos y misteriosos espíritus y hadas. 
+       Sólo aquellos que miran por el mágico "anteojo asombroso" o que tienen escupitajo de trasgo en los ojos  el pegajoso destino de cada uno de los 
+       niños pueden ver a esos seres.</p>
+    <p>El taimado y malévolo ogro Mulgarath representa la amenaza más peligrosa. Los niños entienden muy pronto que la Guía no es producto 
+       de la imaginación de su viejo tío, sino la clave de todos los fabulosos seres que ahora conocen, dejando un poder increíble en manos del que 
+       comprenda sus secretos. ¡Y Mulgarath hará cualquier cosa con tal de hacerse con él!</p>
+    <p>La película, llena de fantasía, cuenta los desesperados esfuerzos de los tres niños para proteger la Guía, impidiendo que caiga en manos equivocadas,
+       con la ayuda de algunas de las extraordinarias criaturas del Mundo Oculto.</p>
+</div>
+    <!-- El JavaScript  -->
+    <script src="js/jquery1.7.2.js"></script>
+    <script src="js/jquery.event.frame.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script>
+        jQuery(document).ready(function(){
+            jQuery('#parallax .parallax-layer')
+            
+            .parallax({
+                mouseport: jQuery('#parallax')
+            });
+        });
+    </script>
+</body>
+</html>
+
+
