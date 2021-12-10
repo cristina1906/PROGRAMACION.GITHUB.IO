@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paralaje Videojuegos con Phaser</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/jparallax.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/phaser.min.js"></script>
+    <script src="js/paralaje.js"></script>
+</head>
+<body>
+    <style>
+        .parallax-viewport{
+            width: 800px;
+            height: 450px;
+            max-width: 60em;
+            background-color: #aebcc9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rayman</h1>
+    <div style="width: 800px; margin:auto;"
+    <!-- Inicia ventana de paralaje  -->
+    <div class="parallax-viewport" id="parallax">
+        <!-- Capas de paralaje (Imagenes) -->
+        <div class="parallax-layer" style="width:997px; height: 547px;">
+            <img src="imagenes/fondo.png" style="position: absolute; left: 0px; top: 0px;">
+            </div>
+        <div class="parallax-layer" style="width:997px; height: 547px;">
+            <img src="imagenes/layer1_game.png 1.png">
+            </div>
+        <div class="parallax-layer" style="width: 997px; height: 547px;">
+            <img src="imagenes/layer2_game.png"></div>
+        </div>
+        
+
+     </div> 
+     <!-- El contenido -->
+<!-- .contemesor>p*5>lorem -->
+<div class="contenedor">
+    <p>Rayman es un videojuego de plataformas de desplazamiento lateral 
+       desarrollado y publicado por Ubisoft. Como la primera entrega de
+       la serie Rayman, el juego sigue las aventuras de Rayman, un héroe 
+       que debe salvar su colorido mundo del malvado Sr. Dark. 
+       Originalmente diseñado para el Atari Jaguar en 1995, se desarrolló
+       y lanzó una versión de PlayStation a tiempo para el lanzamiento 
+       norteamericano de la consola el 9 de septiembre de 1995; y se crearon
+       más puertos para Sega Saturn en 1995 y computadoras MS-DOS en 1996.3​ 
+       El juego ha aparecido en varios otros formatos, incluidas versiones 
+       para Game Boy Advance, PlayStation Network, DSiWare y dispositivos iOS y Android.
+       Rayman es un juego tradicional de plataformas en 2D. 
+       El objetivo del juego es derrotar al malvado Mr. Dark, 
+       un oscuro hechicero que ha corrompido el universo, en un viaje a lo 
+       largo de seis mundos fantásticos.
+    </p>
+
+
+    <!-- El JavaScript  -->
+    <script src="js/jquery1.7.2.js"></script>
+    <script src="js/jquery.event.frame.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script>
+        jQuery(document).ready(function(){
+            jQuery('#parallax .parallax-layer')
+            
+            .parallax({
+                mouseport: jQuery('#parallax')
+            });
+        });
+    </script>
+</body>
+</html>
+
+
