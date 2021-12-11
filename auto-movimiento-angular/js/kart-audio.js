@@ -3,7 +3,7 @@ var movimiento = 300;
 var giro =200;
 
 
-var game = new Phaser.Game(350, 350, Phaser.CANVAS, 'Auto', {preload: preload, create: create, update: update});
+var game = new Phaser.Game(600, 600, Phaser.CANVAS, 'Auto', {preload: preload, create: create, update: update});
 
 function preload(){
     game.load.image('auto', 'imagen/mbkart.png');
